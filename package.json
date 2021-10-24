@@ -1,0 +1,31 @@
+{
+  "name": "react-docz-alamode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "source": "./index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "parcel & yarn docz:dev",
+    "start": "parcel",
+    "build": "parcel build",
+    "docz:build": "docz build",
+    "docz:dev": " docz dev",
+    "docz:serve": "docz build && docz serve",
+    "docz:clean": "rimraf .docz"
+  },
+  "dependencies": {
+    "docz": "^2.3.1",
+    "react": "16.8.0",
+    "react-dom": "16.8.0",
+    "rimraf": "^3.0.2",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "^2.0.0",
+    "@parcel/transformer-typescript-tsc": "^2.0.0",
+    "@types/react": "16.8.0",
+    "@types/react-dom": "16.8.0",
+    "parcel": "latest"
+  }
+}
