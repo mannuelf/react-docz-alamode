@@ -2,7 +2,7 @@
 
 React and docz alamode is an example of using Docz and react in one single repo.
 
-![almode](https://upload.wikimedia.org/wikipedia/commons/a/af/Pie_A_La_Mode.JPG)
+![almode](./.readme/Pie_A_La_Mode.jpeg)
 photo: Dwight Burdette, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons
 
 ## Getting started
